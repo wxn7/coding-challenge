@@ -35,8 +35,9 @@ This repo is for Insight Data Engineering Coding Challenge, 2016. What I achieve
 
 ## Working environment
 
-- language: python 2.7.10
-- addtional packages: json, datetime, sys
+- Language: python 2.7.10
+- Addtional packages: json, datetime, sys
+- Machine specs: 1.3 GHz Intel Core i5 processor and 4GB 1600 MHz DDR3 memory
 
 ## Testing and Result:   
 	
@@ -48,6 +49,6 @@ I constructed my own unit test on the go. Successfully passed the examples given
 - test-4-ordered-outwindow: the 5th JSON results in new latest timestamp, tested on prunning older records
 - test-5-disordered-outwindow: tested on out-of-order transaction
 
-About scaling: I also tested the performance for the larger data file provided, finished in ~0.7s to load 1792 records (with my 1.3 GHz Intel Core i5 processor and 4GB 1600 MHz DDR3 memory).
+About scaling: I also tested the performance for the larger data file provided, finished in ~0.7s. No records are corrupted/has missing value, but my code takes that into consideration and will skip the incomplete item.
 
 
