@@ -39,6 +39,10 @@ This repo is for Insight Data Engineering Coding Challenge, 2016. What I achieve
 - Addtional packages: json, datetime, sys
 - Machine specs: 1.3 GHz Intel Core i5 processor and 4GB 1600 MHz DDR3 memory
 
+## Running
+
+$python ./src/rolling_median.py [input_path] [output_path]
+
 ## Testing and Result:   
 	
 I constructed my own unit test on the go. Successfully passed the examples given in the discription. Here is the file structure under the folder "insight-testsuit/tests", each of which contains 2 folders for input and output:
