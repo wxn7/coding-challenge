@@ -41,7 +41,7 @@ This repo is for Insight Data Engineering Coding Challenge, 2016. What I achieve
 
 ## Running
 
-$python ./src/rolling_median.py [input_path] [output_path]
+```$python ./src/rolling_median.py [input_path] [output_path]```
 
 ## Testing and Result:   
 	
